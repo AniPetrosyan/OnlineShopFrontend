@@ -1,0 +1,717 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">	
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>	
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">	
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
+    <!-- FontAwesome JS -->
+    <script src="https://kit.fontawesome.com/2f158531bd.js" crossorigin="anonymous"></script>
+    <!-- css.gg -->
+    <link href='https://css.gg/css' rel='stylesheet'>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Online Shop</title>
+</head>
+<body>
+  
+
+
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="navbar-collapse">
+        <div class="col-lg-7 d-lg-block d-none">
+          <p class="navbar-brand col-lg-5"> 
+            	&#x1F4DE; Tel: 99-999-999-9999</p>
+        </div>
+        <form class="col-lg-5">
+          <div class="form-row align-items-center">
+            <div class="col-lg-4 col-sm-6 my-1 d-lg-block d-none">
+              <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
+              <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                <option selected>AM</option>
+                <option value="EN">EN</option>
+                <option value="RU">RU</option>
+               
+              </select>
+            </div>
+            <div class="col-lg-4 col-sm-6 my-1 d-lg-block d-none">
+              <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
+              <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                <option selected>֏</option>
+                <option value="EN">&#36;</option>
+                <option value="RU">&#x20bd;</option>
+                
+              </select>
+            </div>
+            <div class="col-lg-4 m-auto d-lg-block d-sm-none">
+              
+                 <a class="btn btn-info col-lg-12" href="wishlist.html">
+                Wishlist <span class="badge badge-dark bg-danger">5</span></a>
+                
+            </div>          
+          </div>
+        </form>         
+      </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="navbar-collapse d-sm-flex">
+       <div class="col-lg-1 col-sm-6 d-lg-block d-none">
+         <img class="logo d-lg-block d-none" src="https://firebasestorage.googleapis.com/v0/b/personal-1c08e.appspot.com/o/logo.svg?alt=media&token=7a322d4e-6088-4647-975a-0f36107a5547">
+         </div> 
+        <div class="col-lg-8 col-sm-3 d-lg-flex justify-content-around pr-40 d-lg-block d-none">
+              <input class="form-control input-lg mr-30" type="search" placeholder="Search" aria-label="Search">
+             
+            </form>
+      </div>
+      
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+ My account
+</button>
+        
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog cascading-modal " role="document">
+    <!--Content-->
+    <div class="modal-content">
+
+      <!--Modal cascading tabs-->
+      <div class="modal-c-tabs ">
+
+        <!-- Nav tabs -->
+        
+        <ul class="nav nav-tabs md-tabs tabs-2 light-blue darken-3" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#panel7" role="tab">
+              Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#panel8" role="tab">
+              Register</a>
+          </li>
+        </ul>
+
+        <!-- Tab panels -->
+        <div class="tab-content">
+          <!--Panel 7-->
+          <div class="tab-pane fade in show active" id="panel7" role="tabpanel">
+
+            <!--Body-->
+            <div class="modal-body mb-1">
+              <div class="md-form form-sm mb-5">
+              
+                <input type="email" id="modalLRInput10" class="form-control form-control-sm validate">
+                <label data-error="wrong" data-success="right" for="modalLRInput10">Your email</label>
+              </div>
+
+              <div class="md-form form-sm mb-4">
+               
+                <input type="password" id="modalLRInput11" class="form-control form-control-sm validate">
+                <label data-error="wrong" data-success="right" for="modalLRInput11">Your password</label>
+              </div>
+              <div class="text-center mt-2">
+               <a href="profile.html" class="btn btn-info">Log in</a>
+              </div>
+            </div>
+            <!--Footer-->
+            <div class="modal-footer">
+              <div class="options text-center text-md-right mt-1">
+                <p>Not a member? <a href="#" class="blue-text">Sign Up</a></p>
+                <p>Forgot <a href="#" class="blue-text">Password?</a></p>
+              </div>
+              <button type="button" class="btn btn-outline-info waves-effect ml-auto" data-dismiss="modal">Close</button>
+            </div>
+
+          </div>
+          <!--/.Panel 7-->
+
+          <!--Panel 8-->
+          <div class="tab-pane fade" id="panel8" role="tabpanel">
+
+            <!--Body-->
+            <div class="modal-body">
+              <div class="md-form form-sm mb-5">
+               
+                <input type="email" id="modalLRInput12" class="form-control form-control-sm validate">
+                <label data-error="wrong" data-success="right" for="modalLRInput12">Your email</label>
+              </div>
+
+              <div class="md-form form-sm mb-5">
+                <input type="password" id="modalLRInput13" class="form-control form-control-sm validate">
+                <label data-error="wrong" data-success="right" for="modalLRInput13">Your password</label>
+              </div>
+
+              <div class="md-form form-sm mb-4">
+               
+                <input type="password" id="modalLRInput14" class="form-control form-control-sm validate">
+                <label data-error="wrong" data-success="right" for="modalLRInput14">Repeat password</label>
+              </div>
+
+              <div class="text-center form-sm mt-2">
+                <a href="profile.html" class="btn btn-info">Sign up </a>
+              </div>
+
+            </div>
+            <!--Footer-->
+            <div class="modal-footer">
+              <div class="options text-right">
+                <p class="pt-1">Already have an account? <a href="#" class="blue-text">Log In</a></p>
+              </div>
+              <button type="button" class="btn btn-outline-info waves-effect ml-auto" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+          <!--/.Panel 8-->
+        </div>
+
+      </div>
+    </div>
+    <!--/.Content-->
+  </div>
+</div>
+<!--Modal: Login / Register Form-->
+
+
+            
+          </div>  
+        </div>      
+      </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light p-3 mb-2  text-white" style="background-color:cadetblue">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav w-100 d-flex justify-content-between">
+      <li class="nav-item dropdown" style="background-color:cadetblue">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          ALL BOOKS
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="market.html">NEW</a>
+          <a class="dropdown-item" href="market.html">BESTSELLERS</a>
+          <a class="dropdown-item" href="market.html">LOVED ONES</a>
+        </div>
+      </li>
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           HISTORIC 
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="market.html">HISTORY OF ARMENIA</a>
+          <a class="dropdown-item" href="market.html">HISTORY OF AMERICA</a>
+          <a class="dropdown-item" href="market.html">HISTORY OF FRANCE</a>
+        </div>
+      </li> 
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          ADVENTURE 
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="market.html">FOR CHILDREN</a>
+          <a class="dropdown-item" href="market.html">FOR ADULTS</a>
+          <a class="dropdown-item" href="market.html">FOR EVERYONE</a>
+        </div>
+      </li> 
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        ROMANCE
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="market.html">DRAMA</a>
+          <a class="dropdown-item" href="market.html">SUSPENSE</a>
+          <a class="dropdown-item" href="market.html">REGENCY </a>
+        </div>
+      </li> 
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  CHILDREN'S
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="market.html">FAIRY TALES</a>
+          <a class="dropdown-item" href="market.html">EDUCATION</a>
+          <a class="dropdown-item" href="market.html">PICTURE BOOKS</a>
+        </div>
+      </li> 
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           STATIONERY AND GIFTS
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="market.html">BOARD GAMES</a>
+          <a class="dropdown-item" href="market.html">HARRY POTTER SHOP</a>
+          <a class="dropdown-item" href="market.html">NOTEBOOKS</a>
+        </div>
+      </li> 
+    </ul>
+  </div>
+</nav>           
+
+
+<div class="container">
+    <nav aria-label="breadcrumb" class="row">
+
+        <ol class="breadcrumb mt-3 col mr-auto">
+            <li class="breadcrumb-item"><a href="market.html">All Books</a></li>
+            <li class="breadcrumb-item"><a href="market.html">New</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Harry Potter</li>
+        </ol>
+        <form action="" class="form-inline col-12 col-md-auto">
+            <label for="sortBy" class="mr-2">Sort By</label>
+            <select class="custom-select" id="sortBy">
+                <option value="1">Price: Low to High</option>
+                <option value="2">Price: High to Low</option>
+                <option value="3">Rating</option>
+            </select>
+        </form>
+    </nav>
+
+
+        <div class="row">
+            <div class="col-12">
+                <h2 class=" font-weight-bold font" style="color: #01085d">Harry Potter and the Prisoner of Azkaban
+</h2>
+<h3>By J.K. Rowling</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <div class="row">
+                    <div class="col-3 ">
+                        <a class="border d-inline-block m-1 p-1" data-fancybox="gallery" href="./img/24.jpg"><img
+                                class="img-fluid" src="./img/24.jpg"></a>
+                        <a class="border d-inline-block m-1 p-1" data-fancybox="gallery" href="./img/26.jpg"><img
+                                class="img-fluid" src="./img/26.jpg"></a>
+                        <a class="border d-inline-block m-1 p-1" data-fancybox="gallery" href="./img/27.jpg"><img
+                                class="img-fluid" src="./img/27.jpg"></a>
+                        <a class="border d-inline-block m-1 p-1" data-fancybox="gallery" href="./img/28.jpg"><img
+                                class="img-fluid" src="./img/28.jpg"></a>
+                    </div>
+                    <div class="col size">
+                        <a class="" data-fancybox="gallery" href="./img/25.jpeg"><img class="img-fluid" src="./img/25.jpeg"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="font-weight-bold">Save £4.50 (30%)</h3>
+                    </div>
+                </div>
+                <form class="w-100 row" action="">
+                    <div class="col-12 col-md-5">
+
+                        <table >
+<tr>
+    <th> Published:
+ </th>
+
+<td>01-09-2014
+</td></tr>
+<tr>
+ <th>Format:</th>
+<td>Hardback</td>
+</tr>
+
+<tr>
+    <th>Imprint:</th>
+
+<td>Bloomsbury</td>
+</tr>
+
+
+<tr>
+    <th>RRP</th>
+
+<td class="line">£14.99</th>
+</tr>
+
+<tr>
+    <th>Online pr:	</th>
+
+<td>£10.49</th>
+</tr>
+
+ 
+
+</table>
+<div class="col-12 col-md-6 ">
+           <a href="wishlist.html" type="button" class="btn btnAddToBasket" style="background-color: #e0c87a; color: #01085d">Add to Wishlist </a>
+          
+                    </div>  
+                       
+                        
+                    </div>
+                 
+                </form>
+               
+                <div class="row">
+                    <div class="col-12">
+                        <p class="font-weight-bold my-2 bl">Color:</p>
+                    </div>
+                    <div class="col-12">
+                        <form action="">
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" id="black" name="customRadioInline1" class="custom-control-input">
+                                <label class="custom-control-label" for="black">Black</label>
+                            </div>
+                             <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" id="blue" name="customRadioInline1" class="custom-control-input">
+                                <label class="custom-control-label" for="blue">Blue</label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" id="silver" name="customRadioInline1" class="custom-control-input"
+                                       checked>
+                                <label class="custom-control-label" for="silver">Silver</label>
+                            </div>
+                        </form>
+                    </div>
+
+              <div class="col-12">
+                        <p class="font-weight-bold my-2 bl">Order:</p>
+                    
+<input type="number" class="num" value="1" min="0" max="100" step="1"/>
+</div>
+
+
+
+
+
+<div class="pt-3">
+			<input id="input-3" name="input-3" class="rating rating-loading" data-min="0" data-max="5" data-step="1" value="3" data-size="md">
+    </div>
+    
+   
+                </div>
+                 <div class="col-12 col-md-6 ">
+      <a href="checkoutPage.html" type="button" class="btn btnAddToBasket m-25" style="background-color: #e0c87a; color: #01085d">Order Now </a>            
+</div>
+            </div>
+        </div>
+
+	
+
+        <div class="row mt-3">
+            <div class="accordion w-100" id="accordionExample">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item" id="headingOne">
+                        <a class="nav-link" href="#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                           aria-controls="collapseOne">Content</a>
+                    </li>
+                    <li class="nav-item" id="headingTwo">
+                        <a class="nav-link" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                           aria-controls="collapseTwo">Rating</a>
+                    </li>
+                    <li class="nav-item" id="headingThree">
+                        <a class="nav-link" href="#" data-toggle="collapse" data-target="#collapseThree"
+                           aria-expanded="false" aria-controls="collapseThree">Link</a>
+                    </li>
+                </ul>
+                <div class="card">
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                         data-parent="#accordionExample">
+                        <div class="card-body">
+                            <p >
+                           This special edition of Harry Potter and the Prisoner of Azkaban has a gorgeous new cover illustration by Kazu Kibuishi. Inside is the full text of the original novel, with decorations by Mary GrandPré.
+
+For twelve long years, the dread fortress of Azkaban held an infamous prisoner named Sirius Black. Convicted of killing thirteen people with a single curse, he was said to be the heir apparent to the Dark Lord, Voldemort.
+
+Now he has escaped, leaving only two clues as to where he might be headed: Harry Potter’s defeat of You-Know-Who was Black’s downfall as well. And the Azkaban guards heard Black muttering in his sleep, “He’s at Hogwarts… he’s at Hogwarts.”
+
+Harry Potter isn’t safe, not even within the walls of his magical school, surrounded by his friends. Because on top of it all, there may be a traitor in their midst.
+                   </p>     </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <span class="w-25">Productivity</span>
+                            <div class="progress">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 10%" aria-valuenow="10"
+                                     aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <span class="w-25">Reading</span>
+                            <div class="progress">
+                                <div class="progress-bar bg-success" role="progressbar" style="width: 25%"
+                                     aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <span class="w-25">Durability</span>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                     style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <span class="w-25">Popularity</span>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75"
+                                     aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <span class="w-25">Shipping</span>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                                     aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <h3>Film trailer:</h3>
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/lAxgztbYDbs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center pb-4 mt-3">
+            <h4 class="font-weight-bold col-12 text-center mb-3">You may also like</h4>
+            <div class="carousel w-100 slide" id="moreCarousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row justify-content-center">
+                            <div class="card m-2 col-md-2 col-12 text-center p-2">
+                                <img img src="./img/29.jpg"  class="card-img-top" >
+                                <div class="card-body">
+                                    
+                                    <h5 class="text-danger">$ 22.99</h5>
+                                    <a href="product.html" class="btn btn-primary">View details</a>
+                                </div>
+                            </div>
+                            <div class="card m-2 col-md-2 col-12 text-center p-2">
+                                <img img src="./img/30.jpeg" class="card-img-top" >
+                                <div class="card-body">
+                                 
+                                    <h5 class="text-danger">$ 22.99</h5>
+                                    <a href="product.html" class="btn btn-primary">View details</a>
+                                </div>
+                            </div>
+                            <div class="card m-2 col-md-2 col-12 text-center p-2">
+                                <img img src="./img/31.jpeg" class="card-img-top" >
+                                <div class="card-body">
+                                    <h5 class="text-danger">$ 22.99</h5>
+                                    <a href="product.html" class="btn btn-primary">View details</a>
+                                </div>
+                            </div>
+                            <div class="card m-2 col-md-2 col-12 text-center p-2">
+                                <img img src="./img/32.jpeg" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="text-danger">$ 22.99</h5>
+                                    <a href="product.html" class="btn btn-primary">View details</a>
+                                </div>
+                            </div>
+                            <div class="card m-2 col-md-2 col-12 text-center p-2">
+                            <img img src="./img/33.jpeg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="text-danger">$ 22.99</h5>
+                                <a href="product.html" class="btn btn-primary">View details</a>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="card m-2 col-md-2 col-12 text-center p-2">
+                                <img img src="./img/34.jpeg" class="card-img-top" >
+                                <div class="card-body">
+                                    <h5 class="text-danger">$22.99</h5>
+                                    <a href="product.html" class="btn btn-primary">View details</a>
+                                </div>
+                            </div>
+                            <div class="card m-2 col-md-2 col-12 text-center p-2">
+                                <img img src="./img/35.jpeg" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="text-danger">$ 22.99</h5>
+                                    <a href="product.html" class="btn btn-primary">View details</a>
+                                </div>
+                            </div>
+                            <div class="card m-2 col-md-2 col-12 text-center p-2">
+                                <img img src="./img/36.jpeg" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="text-danger">$ 22.99</h5>
+                                    <a href="product.html" class="btn btn-primary">View details</a>
+                                </div>
+                            </div>
+                            <div class="card m-2 col-md-2 col-12 text-center p-2">
+                                <img img src="./img/37.jpeg"  class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="text-danger">$ 22.99</h5>
+                                    <a href="product.html" class="btn btn-primary">View details</a>
+                                </div>
+                            </div>
+                            <div class="card m-2 col-md-2 col-12 text-center p-2">
+                            <img img src="./img/30.jpeg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="text-danger">$ 22.99</h5>
+                                <a href="product.html" class="btn btn-primary">View details</a>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <nav class="col mt-2">
+                <ul class="pagination justify-content-center cawrousel-indicators">
+                    <li class="page-item">
+                        <a class="page-link" href="#moreCarousel" role="button" data-slide="prev">Previous</a>
+                    </li>
+                    <li data-target="#moreCarousel" data-slide-to="0" class="page-item"><a class="page-link" href="product.html">1</a></li>
+                    <li data-target="#moreCarousel" data-slide-to="1" class="page-item"><a class="page-link" href="product.html">2</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#moreCarousel" role="button" data-slide="next">Next</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+    </div>
+    
+<footer class="row w100 border text-white bg-dark">
+    <div class="middle">
+      <div class="row mb-4 ">
+        <a class="col-lg col-sm rounded-0 btn text-white stretched-link" href="" style="background-color:cadetblue;">MYSTERY</a>
+        <a class="col-lg col-sm rounded-0 btn text-white stretched-link" href="" style="background-color:cadetblue;">HISTORIC</a>
+        <a class="col-lg col-sm rounded-0 btn text-white stretched-link" href="" style="background-color:cadetblue;">ADVENTURE</a>
+        <a class="col-lg col-sm rounded-0 btn  text-white stretched-link" href="" style="background-color:cadetblue;">ROMANCE</a>
+        <a class="col-lg col-sm rounded-0 btn  text-white stretched-link" href="" style="background-color:cadetblue;">CHILDREN'S </a>
+        <a class="col-lg col-sm rounded-0 btn text-white stretched-link" href="" style="background-color:cadetblue;"> STATIONERY AND GIFTS</a>
+      </div>
+
+     
+          <div class="container-fluid btn-dark" >
+            <div class="row  row-no-gutters">
+    <div class="col-xs-6 col-sm-6 col-md-3" >
+      <ul>
+        <li class="col-heading">CONTACT</li>
+        
+        <li>
+          <i class="fa fa-phone text-white" aria-hidden="true"></i><a class="text-white" href="tel:99-999-999-9999">99-999-999-9999</a>
+        </li>
+        <li>
+          <i class="fa fa-mobile text-white" aria-hidden="true"></i><a class="text-white"  href="sms:99-999-999-9999">SMS Message</a>
+        </li>
+        <li>
+           <i class="fa fa-map-marker text-white" aria-hidden="true"></i><a class="text-white"  href="https://www.google.com/maps/place/%D0%A2%D1%83%D0%BC%D0%BE/@40.1965181,44.479984,15z/data=!4m5!3m4!1s0x0:0x6f5b51aee4e64196!8m2!3d40.1965181!4d44.479984">Address</a>
+        </li> 
+        <li>
+           <i class="fa fa-envelope-square text-white" aria-hidden="true"></i><a class="text-white" href="https://mail.google.com/mail">Email Us</a>  
+        </li> 
+      </ul>
+    </div>     
+
+    <div class="col-xs-12 col-sm-6 col-md-3" >
+      <ul>
+        <li class="col-heading">SHOPPING</li>
+        <li><a class="text-white" href="#">Bookshops</a></li>
+        <li><a class="text-white" href="#">Student Discount</a></li>
+        <li><a class="text-white" href="#">Online Pricing</a></li>
+        <li><a class="text-white" href="#">Sales</a></li>
+      </ul>
+    </div>      
+
+    <div class="col-xs-12 col-sm-6 col-md-3" >
+      <ul>
+        <li class="col-heading">SERVICES</li>
+        <li><a class="text-white"  href="#">Delivery Options</a></li>
+        <li><a class="text-white" href="#">Returning Items</a></li>
+        <li><a class="text-white" href="#">Conditions</a></li>
+        <li><a class="text-white" href="#">Cookie Policy</a></li>
+      </ul>
+    </div>
+    
+    <div class="col-xs-12 col-sm-6 col-md-3" >
+      <ul>
+        <li class="col-heading">About...</li>
+        <li><a class="text-white" href="#">About us</a></li>
+        <li><a class="text-white" href="#">Publishers</a></li>
+        <li><a class="text-white" href="#">Writers</a></li>
+        <li><a class="text-white" href="#">Readers</a></li>
+      </ul>
+    </div>
+  </div> <!--  end row  -->
+  
+  
+
+          
+
+          <section id="lab_social_icon_footer">
+<!-- Include Font Awesome Stylesheet in Header -->
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<div class="container">
+      <div class="text-center center-block">
+              <a href="https://www.facebook.com/bootsnipp"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+              <a href="https://twitter.com/bootsnipp"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+              <a href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+              <a href="mailto:#"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+  </div>
+</div>
+</section>
+          
+            
+     <div class="row row-no-gutters" id="bottom-footer" >
+    
+    <div class="col-xs-12 col-md-5 text-center" >
+        <ul class="vertical-links small">
+          <li><a class="text-white" href="#">Privacy</a></li>
+          <li><a class="text-white" href="#">Terms & Conditions</a></li>
+          <li><a class="text-white" href="#">Site Map</a></li>
+          <li><a class="text-white" href="#">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <div class="col-xs-12 col-md-5 text-center" >
+      <ul>
+        <li class="small">© Copyright 2020 Website by <a href="https://github.com/AniPetrosyan" style="color:white;font-weight:500;">Ani</a>. All Rights reserved.</li>
+      </ul>
+    </div>
+  </div> <!--  end row  -->
+
+</div> <!--  end container-fluid  -->       
+            
+
+      
+     </div>
+  </footer>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+
+    <!--  Fancybox JS  -->
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <!--  custom JS  -->
+    <script type="text/javascript" src="js/script.js"></script>
+<script src="./src/bootstrap-input-spinner.js"></script>
+<script>
+    $("input[type='number']").inputSpinner()
+</script>
+
+<script>
+    !function(e){"use strict";"function"==typeof define&&define.amd?define(["jquery"],e):"object"==typeof module&&module.exports?module.exports=e(require("jquery")):e(window.jQuery)}(function(e){"use strict";e.fn.ratingLocales={},e.fn.ratingThemes={};var t,a;t={NAMESPACE:".rating",DEFAULT_MIN:0,DEFAULT_MAX:5,DEFAULT_STEP:.5,isEmpty:function(t,a){return null===t||void 0===t||0===t.length||a&&""===e.trim(t)},getCss:function(e,t){return e?" "+t:""},addCss:function(e,t){e.removeClass(t).addClass(t)},getDecimalPlaces:function(e){var t=(""+e).match(/(?:\.(\d+))?(?:[eE]([+-]?\d+))?$/);return t?Math.max(0,(t[1]?t[1].length:0)-(t[2]?+t[2]:0)):0},applyPrecision:function(e,t){return parseFloat(e.toFixed(t))},handler:function(e,a,n,r,i){var l=i?a:a.split(" ").join(t.NAMESPACE+" ")+t.NAMESPACE;r||e.off(l),e.on(l,n)}},a=function(t,a){var n=this;n.$element=e(t),n._init(a)},a.prototype={constructor:a,_parseAttr:function(e,a){var n,r,i,l,s=this,o=s.$element,c=o.attr("type");if("range"===c||"number"===c){switch(r=a[e]||o.data(e)||o.attr(e),e){case"min":i=t.DEFAULT_MIN;break;case"max":i=t.DEFAULT_MAX;break;default:i=t.DEFAULT_STEP}n=t.isEmpty(r)?i:r,l=parseFloat(n)}else l=parseFloat(a[e]);return isNaN(l)?i:l},_parseValue:function(e){var t=this,a=parseFloat(e);return isNaN(a)&&(a=t.clearValue),!t.zeroAsNull||0!==a&&"0"!==a?a:null},_setDefault:function(e,a){var n=this;t.isEmpty(n[e])&&(n[e]=a)},_initSlider:function(e){var a=this,n=a.$element.val();a.initialValue=t.isEmpty(n)?0:n,a._setDefault("min",a._parseAttr("min",e)),a._setDefault("max",a._parseAttr("max",e)),a._setDefault("step",a._parseAttr("step",e)),(isNaN(a.min)||t.isEmpty(a.min))&&(a.min=t.DEFAULT_MIN),(isNaN(a.max)||t.isEmpty(a.max))&&(a.max=t.DEFAULT_MAX),(isNaN(a.step)||t.isEmpty(a.step)||0===a.step)&&(a.step=t.DEFAULT_STEP),a.diff=a.max-a.min},_initHighlight:function(e){var t,a=this,n=a._getCaption();e||(e=a.$element.val()),t=a.getWidthFromValue(e)+"%",a.$filledStars.width(t),a.cache={caption:n,width:t,val:e}},_getContainerCss:function(){var e=this;return"rating-container"+t.getCss(e.theme,"theme-"+e.theme)+t.getCss(e.rtl,"rating-rtl")+t.getCss(e.size,"rating-"+e.size)+t.getCss(e.animate,"rating-animate")+t.getCss(e.disabled||e.readonly,"rating-disabled")+t.getCss(e.containerClass,e.containerClass)},_checkDisabled:function(){var e=this,t=e.$element,a=e.options;e.disabled=void 0===a.disabled?t.attr("disabled")||!1:a.disabled,e.readonly=void 0===a.readonly?t.attr("readonly")||!1:a.readonly,e.inactive=e.disabled||e.readonly,t.attr({disabled:e.disabled,readonly:e.readonly})},_addContent:function(e,t){var a=this,n=a.$container,r="clear"===e;return a.rtl?r?n.append(t):n.prepend(t):r?n.prepend(t):n.append(t)},_generateRating:function(){var a,n,r,i=this,l=i.$element;n=i.$container=e(document.createElement("div")).insertBefore(l),t.addCss(n,i._getContainerCss()),i.$rating=a=e(document.createElement("div")).attr("class","rating-stars").appendTo(n).append(i._getStars("empty")).append(i._getStars("filled")),i.$emptyStars=a.find(".empty-stars"),i.$filledStars=a.find(".filled-stars"),i._renderCaption(),i._renderClear(),i._initHighlight(),n.append(l),i.rtl&&(r=Math.max(i.$emptyStars.outerWidth(),i.$filledStars.outerWidth()),i.$emptyStars.width(r)),l.appendTo(a)},_getCaption:function(){var e=this;return e.$caption&&e.$caption.length?e.$caption.html():e.defaultCaption},_setCaption:function(e){var t=this;t.$caption&&t.$caption.length&&t.$caption.html(e)},_renderCaption:function(){var a,n=this,r=n.$element.val(),i=n.captionElement?e(n.captionElement):"";if(n.showcaption){if(a=n.fetchCaption(r),i&&i.length)return t.addCss(i,"caption"),i.html(a),void(n.$caption=i);n._addContent("caption",'<div class="caption">'+a+"</div>"),n.$caption=n.$container.find(".caption")}},_renderClear:function(){var a,n=this,r=n.clearElement?e(n.clearElement):"";if(n.showClear){if(a=n._getClearClass(),r.length)return t.addCss(r,a),r.attr({title:n.clearButtonTitle}).html(n.clearButton),void(n.$clear=r);n._addContent("clear",'<div class="'+a+'" title="'+n.clearButtonTitle+'">'+n.clearButton+"</div>"),n.$clear=n.$container.find("."+n.clearButtonBaseClass)}},_getClearClass:function(){var e=this;return e.clearButtonBaseClass+" "+(e.inactive?"":e.clearButtonActiveClass)},_toggleHover:function(e){var t,a,n,r=this;e&&(r.hoverChangeStars&&(t=r.getWidthFromValue(r.clearValue),a=e.val<=r.clearValue?t+"%":e.width,r.$filledStars.css("width",a)),r.hoverChangeCaption&&(n=e.val<=r.clearValue?r.fetchCaption(r.clearValue):e.caption,n&&r._setCaption(n+"")))},_init:function(t){var a,n=this,r=n.$element.addClass("rating-input");return n.options=t,e.each(t,function(e,t){n[e]=t}),(n.rtl||"rtl"===r.attr("dir"))&&(n.rtl=!0,r.attr("dir","rtl")),n.starClicked=!1,n.clearClicked=!1,n._initSlider(t),n._checkDisabled(),n.displayOnly&&(n.inactive=!0,n.showClear=!1,n.showcaption=!1),n._generateRating(),n._initEvents(),n._listen(),a=n._parseValue(r.val()),r.val(a),r.removeClass("rating-loading")},_initEvents:function(){var e=this;e.events={_getTouchPosition:function(a){var n=t.isEmpty(a.pageX)?a.originalEvent.touches[0].pageX:a.pageX;return n-e.$rating.offset().left},_listenClick:function(e,t){return e.stopPropagation(),e.preventDefault(),e.handled===!0?!1:(t(e),void(e.handled=!0))},_noMouseAction:function(t){return!e.hoverEnabled||e.inactive||t&&t.isDefaultPrevented()},initTouch:function(a){var n,r,i,l,s,o,c,u,d=e.clearValue||0,p="ontouchstart"in window||window.DocumentTouch&&document instanceof window.DocumentTouch;p&&!e.inactive&&(n=a.originalEvent,r=t.isEmpty(n.touches)?n.changedTouches:n.touches,i=e.events._getTouchPosition(r[0]),"touchend"===a.type?(e._setStars(i),u=[e.$element.val(),e._getCaption()],e.$element.trigger("change").trigger("rating.change",u),e.starClicked=!0):(l=e.calculate(i),s=l.val<=d?e.fetchCaption(d):l.caption,o=e.getWidthFromValue(d),c=l.val<=d?o+"%":l.width,e._setCaption(s),e.$filledStars.css("width",c)))},starClick:function(t){var a,n;e.events._listenClick(t,function(t){return e.inactive?!1:(a=e.events._getTouchPosition(t),e._setStars(a),n=[e.$element.val(),e._getCaption()],e.$element.trigger("change").trigger("rating.change",n),void(e.starClicked=!0))})},clearClick:function(t){e.events._listenClick(t,function(){e.inactive||(e.clear(),e.clearClicked=!0)})},starMouseMove:function(t){var a,n;e.events._noMouseAction(t)||(e.starClicked=!1,a=e.events._getTouchPosition(t),n=e.calculate(a),e._toggleHover(n),e.$element.trigger("rating.hover",[n.val,n.caption,"stars"]))},starMouseLeave:function(t){var a;e.events._noMouseAction(t)||e.starClicked||(a=e.cache,e._toggleHover(a),e.$element.trigger("rating.hoverleave",["stars"]))},clearMouseMove:function(t){var a,n,r,i;!e.events._noMouseAction(t)&&e.hoverOnClear&&(e.clearClicked=!1,a='<span class="'+e.clearCaptionClass+'">'+e.clearCaption+"</span>",n=e.clearValue,r=e.getWidthFromValue(n)||0,i={caption:a,width:r,val:n},e._toggleHover(i),e.$element.trigger("rating.hover",[n,a,"clear"]))},clearMouseLeave:function(t){var a;e.events._noMouseAction(t)||e.clearClicked||!e.hoverOnClear||(a=e.cache,e._toggleHover(a),e.$element.trigger("rating.hoverleave",["clear"]))},resetForm:function(t){t&&t.isDefaultPrevented()||e.inactive||e.reset()}}},_listen:function(){var a=this,n=a.$element,r=n.closest("form"),i=a.$rating,l=a.$clear,s=a.events;return t.handler(i,"touchstart touchmove touchend",e.proxy(s.initTouch,a)),t.handler(i,"click touchstart",e.proxy(s.starClick,a)),t.handler(i,"mousemove",e.proxy(s.starMouseMove,a)),t.handler(i,"mouseleave",e.proxy(s.starMouseLeave,a)),a.showClear&&l.length&&(t.handler(l,"click touchstart",e.proxy(s.clearClick,a)),t.handler(l,"mousemove",e.proxy(s.clearMouseMove,a)),t.handler(l,"mouseleave",e.proxy(s.clearMouseLeave,a))),r.length&&t.handler(r,"reset",e.proxy(s.resetForm,a),!0),n},_getStars:function(e){var t,a=this,n='<span class="'+e+'-stars">';for(t=1;t<=a.stars;t++)n+='<span class="star">'+a[e+"Star"]+"</span>";return n+"</span>"},_setStars:function(e){var t=this,a=arguments.length?t.calculate(e):t.calculate(),n=t.$element,r=t._parseValue(a.val);return n.val(r),t.$filledStars.css("width",a.width),t._setCaption(a.caption),t.cache=a,n},showStars:function(e){var t=this,a=t._parseValue(e);return t.$element.val(a),t._setStars()},calculate:function(e){var a=this,n=t.isEmpty(a.$element.val())?0:a.$element.val(),r=arguments.length?a.getValueFromPosition(e):n,i=a.fetchCaption(r),l=a.getWidthFromValue(r);return l+="%",{caption:i,width:l,val:r}},getValueFromPosition:function(e){var a,n,r=this,i=t.getDecimalPlaces(r.step),l=r.$rating.width();return n=r.diff*e/(l*r.step),n=r.rtl?Math.floor(n):Math.ceil(n),a=t.applyPrecision(parseFloat(r.min+n*r.step),i),a=Math.max(Math.min(a,r.max),r.min),r.rtl?r.max-a:a},getWidthFromValue:function(e){var t,a,n=this,r=n.min,i=n.max,l=n.$emptyStars;return!e||r>=e||r===i?0:(a=l.outerWidth(),t=a?l.width()/a:1,e>=i?100:(e-r)*t*100/(i-r))},fetchCaption:function(e){var a,n,r,i,l,s=this,o=parseFloat(e)||s.clearValue,c=s.starCaptions,u=s.starCaptionClasses;return o&&o!==s.clearValue&&(o=t.applyPrecision(o,t.getDecimalPlaces(s.step))),i="function"==typeof u?u(o):u[o],r="function"==typeof c?c(o):c[o],n=t.isEmpty(r)?s.defaultCaption.replace(/\{rating}/g,o):r,a=t.isEmpty(i)?s.clearCaptionClass:i,l=o===s.clearValue?s.clearCaption:n,'<span class="'+a+'">'+l+"</span>"},destroy:function(){var a=this,n=a.$element;return t.isEmpty(a.$container)||a.$container.before(n).remove(),e.removeData(n.get(0)),n.off("rating").removeClass("rating rating-input")},create:function(e){var t=this,a=e||t.options||{};return t.destroy().rating(a)},clear:function(){var e=this,t='<span class="'+e.clearCaptionClass+'">'+e.clearCaption+"</span>";return e.inactive||e._setCaption(t),e.showStars(e.clearValue).trigger("change").trigger("rating.clear")},reset:function(){var e=this;return e.showStars(e.initialValue).trigger("rating.reset")},update:function(e){var t=this;return arguments.length?t.showStars(e):t.$element},refresh:function(t){var a=this,n=a.$element;return t?a.destroy().rating(e.extend(!0,a.options,t)).trigger("rating.refresh"):n}},e.fn.rating=function(n){var r=Array.apply(null,arguments),i=[];switch(r.shift(),this.each(function(){var l,s=e(this),o=s.data("rating"),c="object"==typeof n&&n,u=c.theme||s.data("theme"),d=c.language||s.data("language")||"en",p={},h={};o||(u&&(p=e.fn.ratingThemes[u]||{}),"en"===d||t.isEmpty(e.fn.ratingLocales[d])||(h=e.fn.ratingLocales[d]),l=e.extend(!0,{},e.fn.rating.defaults,p,e.fn.ratingLocales.en,h,c,s.data()),o=new a(this,l),s.data("rating",o)),"string"==typeof n&&i.push(o[n].apply(o,r))}),i.length){case 0:return this;case 1:return void 0===i[0]?this:i[0];default:return i}},e.fn.rating.defaults={theme:"",language:"en",stars:5,filledStar:'<i class="fas fa-star"></i>',emptyStar:'<i class="far fa-star"></i>',containerClass:"",size:"md",animate:!0,displayOnly:!1,rtl:!1,showClear:!0,showcaption:!0,starCaptionClasses:{.5:"badge badge-pill badge-danger",1:"badge badge-pill badge-danger",1.5:"badge badge-pill badge-warning",2:"badge badge-pill badge-warning",2.5:"badge badge-pill badge-info",3:"badge badge-pill badge-info",3.5:"badge badge-pill badge-primary",4:"badge badge-pill badge-primary",4.5:"badge badge-pill badge-success",5:"badge badge-pill badge-success"},clearButton:'<i class="fa fa-minus-circle"></i>',clearButtonBaseClass:"clear-rating",clearButtonActiveClass:"clear-rating-active",clearCaptionClass:"label label-default",clearValue:null,captionElement:null,clearElement:null,hoverEnabled:!0,hoverChangeCaption:!0,hoverChangeStars:!0,hoverOnClear:!0,zeroAsNull:!0},e.fn.ratingLocales.en={defaultCaption:"{rating} Stars",starCaptions:{.5:"Half Star",1:"One Star",1.5:"One & Half Star",2:"Two Stars",2.5:"Two & Half Stars",3:"Three Stars",3.5:"Three & Half Stars",4:"Four Stars",4.5:"Four & Half Stars",5:"Five Stars"},clearButtonTitle:"Clear",clearCaption:"Not Rated"},e.fn.rating.Constructor=a,e(document).ready(function(){var t=e("input.rating");t.length&&t.removeClass("rating-loading").addClass("rating-loading").rating()})});
+
+</script>
+
+
+</body>
+</html>

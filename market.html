@@ -1,0 +1,809 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="script.js">
+    <title></title>
+  </head>
+  <body>
+   
+     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="navbar-collapse">
+        <div class="col-lg-7 d-lg-block d-none">
+          <p class="navbar-brand col-lg-5"> 
+            	&#x1F4DE; Tel: 99-999-999-9999</p>
+        </div>
+        <form class="col-lg-5">
+          <div class="form-row align-items-center">
+            <div class="col-lg-4 col-sm-6 my-1 d-lg-block d-none">
+              <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
+              <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                <option selected>AM</option>
+                <option value="EN">EN</option>
+                <option value="RU">RU</option>
+               
+              </select>
+            </div>
+            <div class="col-lg-4 col-sm-6 my-1 d-lg-block d-none">
+              <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
+              <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                <option selected>֏</option>
+                <option value="EN">&#36;</option>
+                <option value="RU">&#x20bd;</option>
+                
+              </select>
+            </div>
+            <div class="col-lg-4 m-auto d-lg-block d-sm-none">
+              
+                 <a class="btn btn-info col-lg-12" href="wishlist.html">
+                Wishlist <span class="badge badge-dark bg-danger">5</span></a>
+                
+            </div>          
+          </div>
+        </form>         
+      </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="navbar-collapse d-sm-flex">
+       <div class="col-lg-1 col-sm-6 d-lg-block d-none">
+         <img class="logo d-lg-block d-none" src="https://firebasestorage.googleapis.com/v0/b/personal-1c08e.appspot.com/o/logo.svg?alt=media&token=7a322d4e-6088-4647-975a-0f36107a5547">
+         </div> 
+        <div class="col-lg-8 col-sm-3 d-lg-flex justify-content-around pr-40 d-lg-block d-none">
+              <input class="form-control input-lg mr-30" type="search" placeholder="Search" aria-label="Search">
+             
+            </form>
+      </div>
+      
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+ My account
+</button>
+        
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog cascading-modal " role="document">
+    <!--Content-->
+    <div class="modal-content">
+
+      <!--Modal cascading tabs-->
+      <div class="modal-c-tabs ">
+
+        <!-- Nav tabs -->
+        
+        <ul class="nav nav-tabs md-tabs tabs-2 light-blue darken-3" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#panel7" role="tab">
+              Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#panel8" role="tab">
+              Register</a>
+          </li>
+        </ul>
+
+        <!-- Tab panels -->
+        <div class="tab-content">
+          <!--Panel 7-->
+          <div class="tab-pane fade in show active" id="panel7" role="tabpanel">
+
+            <!--Body-->
+            <div class="modal-body mb-1">
+              <div class="md-form form-sm mb-5">
+              
+                <input type="email" id="modalLRInput10" class="form-control form-control-sm validate">
+                <label data-error="wrong" data-success="right" for="modalLRInput10">Your email</label>
+              </div>
+
+              <div class="md-form form-sm mb-4">
+               
+                <input type="password" id="modalLRInput11" class="form-control form-control-sm validate">
+                <label data-error="wrong" data-success="right" for="modalLRInput11">Your password</label>
+              </div>
+              <div class="text-center mt-2">
+               <a href="profile.html" class="btn btn-info">Log in</a>
+              </div>
+            </div>
+            <!--Footer-->
+            <div class="modal-footer">
+              <div class="options text-center text-md-right mt-1">
+                <p>Not a member? <a href="#" class="blue-text">Sign Up</a></p>
+                <p>Forgot <a href="#" class="blue-text">Password?</a></p>
+              </div>
+              <button type="button" class="btn btn-outline-info waves-effect ml-auto" data-dismiss="modal">Close</button>
+            </div>
+
+          </div>
+          <!--/.Panel 7-->
+
+          <!--Panel 8-->
+          <div class="tab-pane fade" id="panel8" role="tabpanel">
+
+            <!--Body-->
+            <div class="modal-body">
+              <div class="md-form form-sm mb-5">
+               
+                <input type="email" id="modalLRInput12" class="form-control form-control-sm validate">
+                <label data-error="wrong" data-success="right" for="modalLRInput12">Your email</label>
+              </div>
+
+              <div class="md-form form-sm mb-5">
+                <input type="password" id="modalLRInput13" class="form-control form-control-sm validate">
+                <label data-error="wrong" data-success="right" for="modalLRInput13">Your password</label>
+              </div>
+
+              <div class="md-form form-sm mb-4">
+               
+                <input type="password" id="modalLRInput14" class="form-control form-control-sm validate">
+                <label data-error="wrong" data-success="right" for="modalLRInput14">Repeat password</label>
+              </div>
+
+              <div class="text-center form-sm mt-2">
+                <a href="profile.html" class="btn btn-info">Sign up </a>
+              </div>
+
+            </div>
+            <!--Footer-->
+            <div class="modal-footer">
+              <div class="options text-right">
+                <p class="pt-1">Already have an account? <a href="#" class="blue-text">Log In</a></p>
+              </div>
+              <button type="button" class="btn btn-outline-info waves-effect ml-auto" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+          <!--/.Panel 8-->
+        </div>
+
+      </div>
+    </div>
+    <!--/.Content-->
+  </div>
+</div>
+<!--Modal: Login / Register Form-->
+
+
+            
+          </div>  
+        </div>      
+      </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light p-3 mb-2  text-white" style="background-color:cadetblue">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav w-100 d-flex justify-content-between">
+      <li class="nav-item dropdown" style="background-color:cadetblue">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          ALL BOOKS
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="market.html">NEW</a>
+          <a class="dropdown-item" href="market.html">BESTSELLERS</a>
+          <a class="dropdown-item" href="market.html">LOVED ONES</a>
+        </div>
+      </li>
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           HISTORIC 
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="market.html">HISTORY OF ARMENIA</a>
+          <a class="dropdown-item" href="market.html">HISTORY OF AMERICA</a>
+          <a class="dropdown-item" href="market.html">HISTORY OF FRANCE</a>
+        </div>
+      </li> 
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          ADVENTURE 
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="market.html">FOR CHILDREN</a>
+          <a class="dropdown-item" href="market.html">FOR ADULTS</a>
+          <a class="dropdown-item" href="market.html">FOR EVERYONE</a>
+        </div>
+      </li> 
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        ROMANCE
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="market.html">DRAMA</a>
+          <a class="dropdown-item" href="market.html">SUSPENSE</a>
+          <a class="dropdown-item" href="market.html">REGENCY </a>
+        </div>
+      </li> 
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  CHILDREN'S
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="market.html">FAIRY TALES</a>
+          <a class="dropdown-item" href="market.html">EDUCATION</a>
+          <a class="dropdown-item" href="market.html">PICTURE BOOKS</a>
+        </div>
+      </li> 
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           STATIONERY AND GIFTS
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="market.html">BOARD GAMES</a>
+          <a class="dropdown-item" href="market.html">HARRY POTTER SHOP</a>
+          <a class="dropdown-item" href="market.html">NOTEBOOKS</a>
+        </div>
+      </li> 
+    </ul>
+  </div>
+</nav>           
+
+
+
+<div class="container">
+    <nav aria-label="breadcrumb" class="row">
+
+        <ol class="breadcrumb mt-3 col mr-auto">
+            <li class="breadcrumb-item"><a href="market.html">All Books</a></li>
+            <li class="breadcrumb-item active" aria-current="page">New</li>
+        </ol>
+        <form action="" class="form-inline col-12 col-md-auto">
+            <label for="sortBy" class="mr-2">Sort By</label>
+            <select class="custom-select" id="sortBy">
+                <option value="1">Price: Low to High</option>
+                <option value="2">Price: High to Low</option>
+                <option value="3">Rating</option>
+            </select>
+        </form>
+    </nav>
+    
+    <div class="row border-top">
+        
+<div class="d-none d-md-block col-md-3 sidebar fixed-right bg-light ">
+
+<ul class="list-group">
+            <!-- Separator with title -->
+            <li class="list-group-item sidebar-separator-title text-muted d-flex align-items-center menu-collapsed">
+                <small>CLICK AND SELECT</small>
+            </li>
+            <!-- /END Separator -->
+            <!-- Menu with submenu -->
+            <a href="#submenu1" data-toggle="collapse" aria-expanded="false" class="bg-dark list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-start align-items-center">
+                  
+                    <span class="menu-collapsed">Selection</span>
+              
+                </div>
+            </a>
+            <!-- Submenu content -->
+            <div id='submenu1' class="collapse sidebar-submenu">
+                <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                    <span class="menu-collapsed">Brand</span>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                    <span class="menu-collapsed">Size</span>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                    <span class="menu-collapsed">Color</span>
+                </a>
+                 <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                    <span class="menu-collapsed">Country</span>
+                </a>
+                 <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                    <span class="menu-collapsed">Gender</span>
+                </a>
+            </div>
+
+
+  <ul class="list-group">
+            <!-- Separator with title -->
+            <li class="list-group-item sidebar-separator-title text-muted d-flex align-items-center menu-collapsed">
+                <small>MAIN MENU</small>
+            </li>
+            <!-- /END Separator -->
+            <!-- Menu with submenu -->
+          
+           
+            
+            <a href="#submenu2" data-toggle="collapse" aria-expanded="false" class="bg-dark list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-start align-items-center">
+                    <span class="fa fa-user fa-fw mr-3"></span>
+                    <span class="menu-collapsed">Profile</span>
+                    <span class="submenu-icon ml-auto"></span>
+                </div>
+            </a>
+            <!-- Submenu content -->
+            <div id='submenu2' class="collapse sidebar-submenu">
+                <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                    <span class="menu-collapsed">Settings</span>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                    <span class="menu-collapsed">Password</span>
+                </a>
+            </div>            
+            <a href="#" class="bg-dark list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-start align-items-center">
+                    <span class="fa fa-tasks fa-fw mr-3"></span>
+                    <span class="menu-collapsed">Most ordered</span>    
+                </div>
+            </a>
+            <!-- Separator with title -->
+            <li class="list-group-item sidebar-separator-title text-muted d-flex align-items-center menu-collapsed">
+                <small>OPTIONS</small>
+            </li>
+            <!-- /END Separator -->
+            <a href="#" class="bg-dark list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-start align-items-center">
+                    <span class="fa fa-calendar fa-fw mr-3"></span>
+                    <span class="menu-collapsed">Most read</span>
+                </div>
+            </a>
+            <a href="#" class="bg-dark list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-start align-items-center">
+                    <span class="fa fa-envelope-o fa-fw mr-3"></span>
+                    <span class="menu-collapsed">Messages <span class="badge badge-pill badge-primary ml-2">5</span></span>
+                </div>
+            </a>
+            <!-- Separator without title -->
+            <li class="list-group-item sidebar-separator menu-collapsed"></li>            
+            <!-- /END Separator -->
+            <a href="#" class="bg-dark list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-start align-items-center">
+                    <span class="fa fa-question fa-fw mr-3"></span>
+                    <span class="menu-collapsed">Help</span>
+                </div>
+            </a>
+            <a href="#" data-toggle="sidebar-colapse" class="bg-dark list-group-item list-group-item-action d-flex align-items-center">
+                <div class="d-flex w-100 justify-content-start align-items-center">
+                    <span id="collapse-icon" class="fa fa-2x mr-3"></span>
+                    <span id="collapse-text" class="menu-collapsed">Collapse</span>
+                </div>
+            </a>
+            
+        </ul><!-- List Group END-->
+
+
+        <div class="custom-control custom-switch switch">
+                    <input type="checkbox" class="custom-control-input" id="imgOnly">
+                    <label class="custom-control-label" for="imgOnly">With Images Only</label>
+                </div>
+    </div><!-- sidebar-container END -->
+
+
+    
+       
+
+
+   
+
+
+
+        <div class="col-12 col-md-9 main border-right border-left">
+            <div class="row justify-content-center">
+                <div class="col-6 col-sm-6 col-md-12 product-card border p-2">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-md-4 col-lg-3">
+                            <img class="w-100 h-100" src="./img/25.jpeg" >
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-6">
+                            <h6 class="first"><a href="product.html" class="text-decoration-none">Harry Potter and the Prisoner of Azkaban</a>
+                            </h6>
+                            <ul class="d-none d-lg-block">
+                                <li >Author: J.K. Rowling </li>
+                                <li>Price: $22.99</li>
+                                <li>Pages: 384</li>
+                                <li>Available now</li>
+                                
+                            </ul>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-3 text-center h-100">
+                             <a class="button w-100 m-2" href="wishlist.html"><span class="fa fa-heart"></span> wishlist</a>
+                  <a class="button js-add-product w-100 m-2" href="#" title="Add to cart"><span class="fa fa-cart-plus"></span>Buy</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-12 product-card border p-2">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-md-4 col-lg-3">
+                            <img class="w-100 h-100" src="./img/18.jpg" >
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-6">
+                            <h6 class="first"><a href="product.html" class="text-decoration-none">Topics of Conversation: A novel</a>
+                            </h6>
+                            <ul class="d-none d-lg-block">
+                                <li>Author: Miranda Popkey</li>
+                                <li>Price: $12.99</li>
+                              <li>Pages: 162</li>
+                                <li>This title will be released on May 30, 2020.</li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-3 text-center h-100">
+                          
+                             <a class="button w-100 m-2" href="wishlist.html"><span class="fa fa-heart"></span> Wishlist</a>
+                  
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-12 product-card border p-2">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-md-4 col-lg-3">
+                            <img class="w-100" src="./img/19.jpg" >
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-6">
+                            <h6 class="first"><a href="product.html" class="text-decoration-none">The Glass Hotel: A novel</a>
+                            </h6>
+                            <ul class="d-none d-lg-block">
+                                <li>Author: Emily St. John Mandel</li>
+                                <li>Price: $9.919</li>
+                              <li>Pages: 321</li>
+                                <li>Available now</li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-3 text-center h-100">
+                         
+                             <a class="button w-100 m-2" href="wishlist.html"><span class="fa fa-heart"></span> wishlist</a>
+                  <a class="button js-add-product w-100 m-2" href="#" title="Add to cart"><span class="fa fa-cart-plus"></span>Buy</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-12 product-card border p-2">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-md-4 col-lg-3">
+                            <img class="w-100" src="./img/20.jpg" >
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-6">
+                            <h6 class="first"><a href="product.html" class="text-decoration-none">Uncanny Valley: A Memoir</a>
+                            </h6>
+                            <ul class="d-none d-lg-block">
+                                <li>Author: Anna Wiener</li>
+                                <li>Price: $13.29</li>
+                              <li>Pages: 279</li>
+                                <li>Available now</li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-3 text-center h-100">
+                     <a class="button w-100 m-2" href="wishlist.html"><span class="fa fa-heart"></span> wishlist</a>
+                  <a class="button js-add-product w-100 m-2" href="#" title="Add to cart"><span class="fa fa-cart-plus"></span>Buy</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-12 product-card border p-2">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-md-4 col-lg-3">
+                            <img class="w-100" src="./img/21.jpg" >
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-6">
+                            <h6 class="first"><a href="product.html" class="text-decoration-none">Sweetbitter: A novel</a>
+                            </h6>
+                            <ul class="d-none d-lg-block">
+                               <li>Author: Stephanie Danler </li>
+                                <li>Price: $13.29</li>
+                              <li>Pages: 279</li>
+                                <li>Available now</li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-3 text-center h-100">
+                             <a class="button w-100 m-2" href="wishlist.html"><span class="fa fa-heart"></span> wishlist</a>
+                  <a class="button js-add-product w-100 m-2" href="#" title="Add to cart"><span class="fa fa-cart-plus"></span>Buy</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-12 product-card border p-2">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-md-4 col-lg-3">
+                            <img class="w-100" src="./img/22.jpg" >
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-6">
+                            <h6 class="first"><a href="product.html" class="text-decoration-none">American Woman: A Novel</a>
+                            </h6>
+                            <ul class="d-none d-lg-block">
+                                 <li>Author: Susan Choi </li>
+                                <li>Price: $8.99</li>
+                              <li>Pages: 392</li>
+                                <li>Available now</li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-3 text-center h-100">
+                       <a class="button w-100 m-2" href="wishlist.html"><span class="fa fa-heart"></span> wishlist</a>
+                  <a class="button js-add-product w-100 m-2" href="#" title="Add to cart"><span class="fa fa-cart-plus"></span>Buy</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-12 product-card border p-2">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-md-4 col-lg-3">
+                            <img class="w-100" src="./img/23.jpg">
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-6">
+                            <h6 class="first"><a href="product.html" class="text-decoration-none">The Diamond Caper (Sam Levitt Capers Book 4)</a>
+                            </h6>
+                            <ul class="d-none d-lg-block">
+                               <li>Author: Peter Mayle </li>
+                                <li>Price: $9.99</li>
+                              <li>Pages: 224</li>
+                                <li>Available now</li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-3 text-center h-100">
+                             <a class="button w-100 m-2" href="wishlist.html"><span class="fa fa-heart"></span> wishlist</a>
+                  <a class="button js-add-product w-100 m-2" href="#" title="Add to cart"><span class="fa fa-cart-plus"></span>Buy</a>
+                        </div>
+                    </div>
+                </div>
+                <nav class="col-12 mt-2">
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item">
+                            <a class="page-link" href="market.html">Previous</a>
+                        </li>
+                        <li class="page-item active"><a class="page-link" href="market.html">1</a></li>
+                        <li class="page-item"><a class="page-link" href="market.html">2</a></li>
+                        <li class="page-item"><a class="page-link" href="market.html">3</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="market.html">Next</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+
+
+            
+        </div>
+
+
+
+
+
+    </div>
+</div>
+
+
+<aside class="cart js-cart">
+  <div class="cart__header">
+    <h1 class="cart__title">Shopping cart</h1>
+    <p class="cart__text">
+      <a class="button button--light js-toggle-cart" href="#" title="Close cart">
+        Close cart
+      </a>
+    </p>
+  </div>
+  <div class="cart__products js-cart-products">
+    <p class="cart__empty js-cart-empty">
+      Add a product to your cart
+    </p>
+    <div class="cart__product js-cart-product-template">
+      <article class="js-cart-product">
+      
+        <h1 style="margin-top: 10%;">Product added!</h1>
+        <p>
+          <a class="js-remove-product" href="#" title="Delete product">
+            Delete product
+          </a>
+        </p>
+      </article>
+    </div>
+  </div>
+  <div class="cart__footer">
+    <p class="cart__text">
+      <a class="button" href="checkoutPage.html" title="Buy products">
+        Buy products
+      </a>
+    </p>
+  </div>
+</aside>
+
+<div class="lightbox js-lightbox js-toggle-cart"></div>
+
+
+
+
+
+
+
+<footer class="row w100 border text-white bg-dark">
+      <div class="middle">
+        <div class="row mb-4 ">
+          <a class="col-lg col-sm rounded-0 btn text-white stretched-link" href="" style="background-color:cadetblue;">MYSTERY</a>
+          <a class="col-lg col-sm rounded-0 btn text-white stretched-link" href="" style="background-color:cadetblue;">HISTORIC</a>
+          <a class="col-lg col-sm rounded-0 btn text-white stretched-link" href="" style="background-color:cadetblue;">ADVENTURE</a>
+          <a class="col-lg col-sm rounded-0 btn  text-white stretched-link" href="" style="background-color:cadetblue;">ROMANCE</a>
+          <a class="col-lg col-sm rounded-0 btn  text-white stretched-link" href="" style="background-color:cadetblue;">CHILDREN'S </a>
+          <a class="col-lg col-sm rounded-0 btn text-white stretched-link" href="" style="background-color:cadetblue;"> STATIONERY AND GIFTS</a>
+        </div>
+  
+       
+            <div class="container-fluid btn-dark" >
+              <div class="row  row-no-gutters">
+      <div class="col-xs-6 col-sm-6 col-md-3" >
+        <ul>
+          <li class="col-heading">CONTACT</li>
+          
+          <li>
+            <i class="fa fa-phone text-white" aria-hidden="true"></i><a class="text-white" href="tel:99-999-999-9999">99-999-999-9999</a>
+          </li>
+          <li>
+            <i class="fa fa-mobile text-white" aria-hidden="true"></i><a class="text-white"  href="sms:99-999-999-9999">SMS Message</a>
+          </li>
+          <li>
+             <i class="fa fa-map-marker text-white" aria-hidden="true"></i><a class="text-white"  href="https://www.google.com/maps/place/%D0%A2%D1%83%D0%BC%D0%BE/@40.1965181,44.479984,15z/data=!4m5!3m4!1s0x0:0x6f5b51aee4e64196!8m2!3d40.1965181!4d44.479984">Address</a>
+          </li> 
+          <li>
+             <i class="fa fa-envelope-square text-white" aria-hidden="true"></i><a class="text-white" href="https://mail.google.com/mail">Email Us</a>  
+          </li> 
+        </ul>
+      </div>     
+
+      <div class="col-xs-12 col-sm-6 col-md-3" >
+        <ul>
+          <li class="col-heading">SHOPPING</li>
+          <li><a class="text-white" href="#">Bookshops</a></li>
+          <li><a class="text-white" href="#">Student Discount</a></li>
+          <li><a class="text-white" href="#">Online Pricing</a></li>
+          <li><a class="text-white" href="#">Sales</a></li>
+        </ul>
+      </div>      
+
+      <div class="col-xs-12 col-sm-6 col-md-3" >
+        <ul>
+          <li class="col-heading">SERVICES</li>
+          <li><a class="text-white"  href="#">Delivery Options</a></li>
+          <li><a class="text-white" href="#">Returning Items</a></li>
+          <li><a class="text-white" href="#">Conditions</a></li>
+          <li><a class="text-white" href="#">Cookie Policy</a></li>
+        </ul>
+      </div>
+      
+      <div class="col-xs-12 col-sm-6 col-md-3" >
+        <ul>
+          <li class="col-heading">About...</li>
+          <li><a class="text-white" href="#">About us</a></li>
+          <li><a class="text-white" href="#">Publishers</a></li>
+          <li><a class="text-white" href="#">Writers</a></li>
+          <li><a class="text-white" href="#">Readers</a></li>
+        </ul>
+      </div>
+    </div> <!--  end row  -->
+    
+    
+
+            
+
+            <section id="lab_social_icon_footer">
+<!-- Include Font Awesome Stylesheet in Header -->
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<div class="container">
+        <div class="text-center center-block">
+                <a href="https://www.facebook.com/bootsnipp"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+	            <a href="https://twitter.com/bootsnipp"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+	            <a href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+	            <a href="mailto:#"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+    </div>
+</div>
+</section>
+            
+              
+       <div class="row row-no-gutters" id="bottom-footer" >
+      
+      <div class="col-xs-12 col-md-5 text-center" >
+          <ul class="vertical-links small">
+            <li><a class="text-white" href="#">Privacy</a></li>
+            <li><a class="text-white" href="#">Terms & Conditions</a></li>
+            <li><a class="text-white" href="#">Site Map</a></li>
+            <li><a class="text-white" href="#">Contact Us</a></li>
+          </ul>
+      </div>
+ 
+      <div class="col-xs-12 col-md-5 text-center" >
+        <ul>
+          <li class="small">© Copyright 2020 Website by <a href="https://github.com/AniPetrosyan" style="color:white;font-weight:500;">Ani</a>. All Rights reserved.</li>
+        </ul>
+      </div>
+    </div> <!--  end row  -->
+
+  </div> <!--  end container-fluid  -->       
+              
+
+        
+       </div>
+    </footer>
+
+
+
+
+
+
+    <script src='//production-assets.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js'></script><script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script >var cartOpen = false;
+var numberOfProducts = 0;
+
+$('body').on('click', '.js-toggle-cart', toggleCart);
+$('body').on('click', '.js-add-product', addProduct);
+$('body').on('click', '.js-remove-product', removeProduct);
+
+function toggleCart(e) {
+  e.preventDefault();
+  if(cartOpen) {
+    closeCart();
+    return;
+  }
+  openCart();
+}
+
+function openCart() {
+  cartOpen = true;
+  $('body').addClass('open');
+}
+
+function closeCart() {
+  cartOpen = false;
+  $('body').removeClass('open');
+}
+
+function addProduct(e) {
+  e.preventDefault();
+  openCart();
+  $('.js-cart-empty').addClass('hide');
+  var product = $('.js-cart-product-template').html();
+  $('.js-cart-products').prepend(product);
+  numberOfProducts++;
+}
+
+function removeProduct(e) {
+  e.preventDefault();
+  numberOfProducts--;
+  $(this).closest('.js-cart-product').hide(250);
+  if(numberOfProducts == 0) {
+    $('.js-cart-empty').removeClass('hide');
+  }
+}
+
+</script>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  
+<script>
+
+    // Hide submenus
+$('#body-row .collapse').collapse('hide'); 
+
+// Collapse/Expand icon
+$('#collapse-icon').addClass('fa-angle-double-left'); 
+
+// Collapse click
+$('[data-toggle=sidebar-colapse]').click(function() {
+    SidebarCollapse();
+});
+
+function SidebarCollapse () {
+    $('.menu-collapsed').toggleClass('d-none');
+    $('.sidebar-submenu').toggleClass('d-none');
+    $('.submenu-icon').toggleClass('d-none');
+    $('#sidebar-container').toggleClass('sidebar-expanded sidebar-collapsed');
+    
+    // Treating d-flex/d-none on separators with title
+    var SeparatorTitle = $('.sidebar-separator-title');
+    if ( SeparatorTitle.hasClass('d-flex') ) {
+        SeparatorTitle.removeClass('d-flex');
+    } else {
+        SeparatorTitle.addClass('d-flex');
+    }
+    
+    // Collapse/Expand icon
+    $('#collapse-icon').toggleClass('fa-angle-double-left fa-angle-double-right');
+}
+</script>
+
+
+</body>
+</html>

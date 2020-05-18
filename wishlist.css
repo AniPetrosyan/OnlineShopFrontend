@@ -1,0 +1,14 @@
+
+body {
+  background: #eecda3;
+  background: -webkit-linear-gradient(to right, lightblue, cadetblue);
+  background: linear-gradient(to right, lightblue, cadetblue);
+  min-height: 100vh;
+}
+
+.logo-container{
+    left: 50px;
+    position: absolute;
+    top: 20px;
+     z-index: 3;
+}
